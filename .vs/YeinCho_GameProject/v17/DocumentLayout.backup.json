@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\YeinCho_GameProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E26C85C-2A87-4021-BB8E-CDC711C85EA1}|YeinCho_GameProject.csproj|c:\\yeincho_gameproject\\yeincho_gameproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{8E26C85C-2A87-4021-BB8E-CDC711C85EA1}|YeinCho_GameProject.csproj|solutionrelative:yeincho_gameproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E26C85C-2A87-4021-BB8E-CDC711C85EA1}|YeinCho_GameProject.csproj|c:\\yeincho_gameproject\\ychoresumevn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E26C85C-2A87-4021-BB8E-CDC711C85EA1}|YeinCho_GameProject.csproj|solutionrelative:ychoresumevn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,27 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "YeinCho_GameProject.csproj",
-              "DocumentMoniker": "C:\\YeinCho_GameProject\\YeinCho_GameProject.csproj",
-              "RelativeDocumentMoniker": "YeinCho_GameProject.csproj",
-              "ToolTip": "C:\\YeinCho_GameProject\\YeinCho_GameProject.csproj",
-              "RelativeToolTip": "YeinCho_GameProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-31T11:13:12.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "YChoresumeVN.cs",
               "DocumentMoniker": "C:\\YeinCho_GameProject\\YChoresumeVN.cs",
               "RelativeDocumentMoniker": "YChoresumeVN.cs",
               "ToolTip": "C:\\YeinCho_GameProject\\YChoresumeVN.cs",
               "RelativeToolTip": "YChoresumeVN.cs",
-              "ViewState": "AgIAALcCAAAAAAAAAAAcwNgCAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T10:38:08.958Z"
+              "WhenOpened": "2026-08-31T13:05:44.653Z",
+              "EditorCaption": ""
             }
           ]
         }
