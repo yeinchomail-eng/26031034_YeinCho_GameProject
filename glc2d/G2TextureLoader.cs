@@ -2,9 +2,7 @@
 // Author: 3dapi (https://github.com/3dapi)
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-using System.Drawing;
 using System.Drawing.Imaging;
-using Vortice.Direct2D1;
 using Vortice.Mathematics;
 
 static class G2TextureLoader
@@ -46,18 +44,18 @@ static class G2TextureLoader
                 bitmap.Width,
                 bitmap.Height);
 
-var bitmapProperties = new BitmapProperties(
-    new Vortice.DCommon.PixelFormat(
-        Vortice.DXGI.Format.B8G8R8A8_UNorm,
-        Vortice.DCommon.AlphaMode.Premultiplied),
-    96.0f,
-    96.0f);
+            var bitmapProperties = new BitmapProperties(
+                new Vortice.DCommon.PixelFormat(
+                    Vortice.DXGI.Format.B8G8R8A8_UNorm,
+                    Vortice.DCommon.AlphaMode.Premultiplied),
+                96.0f,
+                96.0f);
 
-return renderTarget.CreateBitmap(
-    size,
-    bitmapData.Scan0,
-    (uint)bitmapData.Stride,
-    bitmapProperties);
+            return renderTarget.CreateBitmap(
+                size,
+                bitmapData.Scan0,
+                (uint)bitmapData.Stride,
+                bitmapProperties);
 
         }
         finally
