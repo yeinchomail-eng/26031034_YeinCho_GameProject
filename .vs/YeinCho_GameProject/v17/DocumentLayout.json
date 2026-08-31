@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "YeinCho_GameProject",
+              "DocumentMoniker": "C:\\YeinCho_GameProject\\YeinCho_GameProject.csproj",
+              "RelativeDocumentMoniker": "YeinCho_GameProject.csproj",
+              "ToolTip": "C:\\YeinCho_GameProject\\YeinCho_GameProject.csproj",
+              "RelativeToolTip": "YeinCho_GameProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-31T14:11:11.34Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,22 +41,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\YeinCho_GameProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANgCAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAPsBAAAAAAAAAAAuwAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-31T13:56:45.209Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "YeinCho_GameProject.csproj",
-              "DocumentMoniker": "C:\\YeinCho_GameProject\\YeinCho_GameProject.csproj",
-              "RelativeDocumentMoniker": "YeinCho_GameProject.csproj",
-              "ToolTip": "C:\\YeinCho_GameProject\\YeinCho_GameProject.csproj",
-              "RelativeToolTip": "YeinCho_GameProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-31T13:32:29.642Z"
             }
           ]
         }
