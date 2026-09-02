@@ -9,6 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="docs\**" />
+    <EmbeddedResource Remove="docs\**" />
+    <None Remove="docs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="glc2d\README.md" />
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="waksmash.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="glc2dcsharp" Version="0.1.0.7" />
     <PackageReference Include="NAudio" Version="3.0.1" />
     <PackageReference Include="Vortice.Direct2D1" Version="3.8.3" />
