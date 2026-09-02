@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|c:\\consoleapp1\\glc2d\\g2appbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|solutionrelative:glc2d\\g2appbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|c:\\consoleapp1\\glc2d\\g2audiosound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|solutionrelative:glc2d\\g2audiosound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|c:\\consoleapp1\\glc2d\\g2audiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|solutionrelative:glc2d\\g2audiocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|c:\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|c:\\consoleapp1\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|solutionrelative:gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|c:\\consoleapp1\\gameglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|solutionrelative:gameglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|c:\\consoleapp1\\appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|solutionrelative:appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|c:\\consoleapp1\\consoleapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2457CD00-2343-431B-9065-D82E0CE2222B}|ConsoleApp1.csproj|solutionrelative:consoleapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "G2AppBase.cs",
+              "DocumentMoniker": "C:\\ConsoleApp1\\glc2d\\G2AppBase.cs",
+              "RelativeDocumentMoniker": "glc2d\\G2AppBase.cs",
+              "ToolTip": "C:\\ConsoleApp1\\glc2d\\G2AppBase.cs",
+              "RelativeToolTip": "glc2d\\G2AppBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T14:43:23.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "G2AudioSound.cs",
+              "DocumentMoniker": "C:\\ConsoleApp1\\glc2d\\G2AudioSound.cs",
+              "RelativeDocumentMoniker": "glc2d\\G2AudioSound.cs",
+              "ToolTip": "C:\\ConsoleApp1\\glc2d\\G2AudioSound.cs",
+              "RelativeToolTip": "glc2d\\G2AudioSound.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T14:43:10.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "G2AudioContext.cs",
+              "DocumentMoniker": "C:\\ConsoleApp1\\glc2d\\G2AudioContext.cs",
+              "RelativeDocumentMoniker": "glc2d\\G2AudioContext.cs",
+              "ToolTip": "C:\\ConsoleApp1\\glc2d\\G2AudioContext.cs",
+              "RelativeToolTip": "glc2d\\G2AudioContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T14:43:03.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameMain.cs",
+              "DocumentMoniker": "C:\\ConsoleApp1\\GameMain.cs",
+              "RelativeDocumentMoniker": "GameMain.cs",
+              "ToolTip": "C:\\ConsoleApp1\\GameMain.cs",
+              "RelativeToolTip": "GameMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T14:42:42.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameGlobal.cs",
+              "DocumentMoniker": "C:\\ConsoleApp1\\GameGlobal.cs",
+              "RelativeDocumentMoniker": "GameGlobal.cs",
+              "ToolTip": "C:\\ConsoleApp1\\GameGlobal.cs",
+              "RelativeToolTip": "GameGlobal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T14:42:38.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppMain.cs",
+              "DocumentMoniker": "C:\\ConsoleApp1\\AppMain.cs",
+              "RelativeDocumentMoniker": "AppMain.cs",
+              "ToolTip": "C:\\ConsoleApp1\\AppMain.cs",
+              "RelativeToolTip": "AppMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T14:41:12.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleApp1",
+              "DocumentMoniker": "C:\\ConsoleApp1\\ConsoleApp1.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp1.csproj",
+              "ToolTip": "C:\\ConsoleApp1\\ConsoleApp1.csproj",
+              "RelativeToolTip": "ConsoleApp1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T14:35:30.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T14:35:17.539Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
