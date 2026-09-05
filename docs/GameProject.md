@@ -16,8 +16,9 @@
 - 마우스 왼쪽 클릭: 타일 개방
 - 마우스 오른쪽 클릭: 마크 설치 / 재클릭 시 제거
 - 메뉴 조작 (마우스 왼쪽 클릭):
-	 - 게임 종료
-
+	- 소리 끄기 / 켜기
+	- 게임 종료
+ 
 ### 규칙
 - 게임 화면에는 여러 개의 정사각형 타일로 구성된 격자가 존재한다.
 - 플레이어는 처음에는 타일의 내부 정보를 확인할 수 없다.
@@ -53,13 +54,57 @@
 6. 확실한 정보가 없는 경우, 여러 가능성 중 하나를 선택해야 한다.
 	- 일부 상황에서는 논리적 추론만으로 해결할 수 없어, 확률적 판단이 필요하다.
 
-### 적/ 장애물/ 아이템 등의 행동
-
 ### 화면 구성
 
 ### 진행 흐름
+```text
+게임 실행
+   ↓
+난이도 선택
+   ↓
+새 게임 시작
+   ↓
+필드 및 지뢰 생성
+   ↓
+첫 번째 칸 클릭
+   ↓
+┌─────────────────┐
+│     칸 확인      │
+└────────┬────────┘
+         ↓
+    지뢰인가?
+    ↙       ↘
+   YES       NO
+    ↓         ↓
+  패배       숫자/빈칸 확인
+              ↓
+       주변 지뢰 추론
+              ↓
+       지뢰 표시 / 칸 개방
+              ↓
+       모든 안전 칸 개방?
+          ↙        ↘
+        NO         YES
+        ↓           ↓
+      계속         승리
+        ↓
+     칸 확인
+```
 
 ### 주요 객체 목록
+| 객체(클래스) | 역할 | 주요 속성 | 주요 메서드 |
+|---|---|---|---|
+| `Game` | 게임 전체 상태 및 진행 관리 | `State`, `Board` | `Start()`, `Restart()`, `End()` |
+| `GameBoard` | 게임판과 타일 관리 | `Width`, `Height`, `BugCount`, `Tiles` | `Initialize()`, `PlaceMines()`, `CheckWin()` |
+| `Tile` | 게임판의 개별 칸 | `IsBug`, `IsOpened`, `IsMarked`, `AdjacentBugs` | `Open()`, `ToggleMark()` |
+| `Bug` | 벌레 정보 관리 | `Position`, `IsActivated` | `Activate()` |
+| `Player` | 플레이어의 입력 및 행동 관리 | `FlagsUsed`, `IsAlive` | `OpenTile()`, `FlagTile()` |
+| `GameManager` | 게임 상태와 주요 시스템 연결 | `CurrentGame`, `State` | `StartGame()`, `Update()`, `EndGame()` |
+| `InputManager` | 마우스 입력 처리 | `MousePosition`, `MouseButton` | `HandleInput()` |
+| `Renderer` | 게임 화면 렌더링 | `Board`, `Assets` | `DrawBoard()`, `DrawTile()`, `DrawUI()` |
+| `UIManager` | 게임 UI 관리 | `GameState`, `MineCount` | `UpdateUI()`, `ShowResult()` |
+| `SoundManager` | 게임 효과음 관리 | `Sounds`, `Volume` | `PlaySound()`, `StopSound()` |
+| `GameState` | 게임의 현재 상태를 나타내는 열거형 | `Playing`, `Win`, `Lose` | - |
 
 ### 이미지 목록
 - [x] 게임 로고
