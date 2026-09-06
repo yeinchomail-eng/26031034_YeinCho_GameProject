@@ -116,25 +116,26 @@ pptx 참조
 		- [ ] NORMAL
 		- [ ] HARD
 	- [ ] HOW TO PLAY
-		- [ ] HOW TO PLAY 배경
+		- [x] HOW TO PLAY 배경
+		- [x] EXIT Button
 	- [ ] EXIT
 	- [ ] CREDIT
-		- [ ] CREDIT 배경
+		- [x] CREDIT 배경
 - [x] 플레이 배경
 - [ ] 타일 배경 1~3
 - [ ] 타일 OPEN / CLOSE
 - [ ] 숫자 1~3
 - [ ] 마크 느낌표
 - [ ] 벌레 1~3
-- [ ] 플레이 화면 UI
-	- [ ] 난이도 변경 폴더
-	- [ ] HOW TO PLAY 폴더
-	- [ ] EXIT 폴더
+- [X] 플레이 화면 UI
+	- [X] HOME 아이콘
+	- [X] 난이도 변경 폴더
+	- [X] GUIDE 폴더
+	- [X] EXIT 폴더
 - [ ] 패배 배경
-- [ ] RETRY
-- [ ] EXIT Button
+	- [ ] RETRY
 - [ ] 승리 배경
-- [ ] 승리 화면 UI
+	- [ ] 승리 화면 UI
 	- [ ] PLAY AGAIN
 
 ### 사운드 목록
