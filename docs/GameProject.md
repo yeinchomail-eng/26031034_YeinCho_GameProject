@@ -55,6 +55,7 @@
 	- 일부 상황에서는 논리적 추론만으로 해결할 수 없어, 확률적 판단이 필요하다.
 
 ### 화면 구성
+pptx 참조
 
 ### 진행 흐름
 ```text
@@ -95,34 +96,30 @@
 | 객체(클래스) | 역할 | 주요 속성 | 주요 메서드 |
 |---|---|---|---|
 | `Game` | 게임 전체 상태 및 진행 관리 | `State`, `Board` | `Start()`, `Restart()`, `End()` |
-| `GameBoard` | 게임판과 타일 관리 | `Width`, `Height`, `BugCount`, `Tiles` | `Initialize()`, `PlaceMines()`, `CheckWin()` |
+| `GameBoard` | 게임판과 타일 관리 | `Width`, `Height`, `BugCount`, `Tiles` | `Initialize()`, `PlaceBugs()`, `CheckWin()` |
 | `Tile` | 게임판의 개별 칸 | `IsBug`, `IsOpened`, `IsMarked`, `AdjacentBugs` | `Open()`, `ToggleMark()` |
 | `Bug` | 벌레 정보 관리 | `Position`, `IsActivated` | `Activate()` |
-| `Player` | 플레이어의 입력 및 행동 관리 | `FlagsUsed`, `IsAlive` | `OpenTile()`, `FlagTile()` |
+| `Player` | 플레이어의 입력 및 행동 관리 | `MarksUsed`, `IsAlive` | `OpenTile()`, `MarkTile()` |
 | `GameManager` | 게임 상태와 주요 시스템 연결 | `CurrentGame`, `State` | `StartGame()`, `Update()`, `EndGame()` |
 | `InputManager` | 마우스 입력 처리 | `MousePosition`, `MouseButton` | `HandleInput()` |
 | `Renderer` | 게임 화면 렌더링 | `Board`, `Assets` | `DrawBoard()`, `DrawTile()`, `DrawUI()` |
-| `UIManager` | 게임 UI 관리 | `GameState`, `MineCount` | `UpdateUI()`, `ShowResult()` |
-| `SoundManager` | 게임 효과음 관리 | `Sounds`, `Volume` | `PlaySound()`, `StopSound()` |
+| `UIManager` | 게임 UI 관리 | `GameState`, `BugCount` | `UpdateUI()`, `ShowResult()` |
+| `SoundManager` | 게임 효과음 관리 | `Sounds` | `PlaySound()`, `StopSound()` |
 | `GameState` | 게임의 현재 상태를 나타내는 열거형 | `Playing`, `Win`, `Lose` | - |
 
 ### 이미지 목록
 - [x] 게임 로고
-- [ ] 배경
+- [x] 배경
 - [ ] 닫힌 타일
 - [ ] 열린(빈) 타일
-- [ ] 숫자 1~3 타일
+- [ ] 숫자 1~3
 - [ ] 벌레
 - [ ] 마크
 - [ ] 메뉴 버튼
-	- [ ] 게임 종료
-	- [ ] 재시도
 
 ### 사운드 목록
-- [ ] BGM
-- [ ] 단일 타일 개방
+- [x] BGM
+- [ ] 타일 개방
 - [ ] 마크 설치
 - [ ] 마크 제거
 - [ ] 벌레 발견
-- [ ] 승리 효과음
-- [ ] 패배 효과음
