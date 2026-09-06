@@ -108,18 +108,38 @@ pptx 참조
 | `GameState` | 게임의 현재 상태를 나타내는 열거형 | `Playing`, `Win`, `Lose` | - |
 
 ### 이미지 목록
-- [x] 게임 로고
-- [x] 배경
-- [ ] 닫힌 타일
-- [ ] 열린(빈) 타일
+- [x] 타이틀 배경
+	- [X] BGM ON / OFF
+ - [ ] UI
+ 	- [ ] NEW GAME
+		- [ ] EASY
+		- [ ] NORMAL
+		- [ ] HARD
+	- [ ] HOW TO PLAY
+		- [ ] HOW TO PLAY 배경
+	- [ ] EXIT
+	- [ ] CREDIT
+		- [ ] CREDIT 배경
+- [x] 플레이 배경
+- [ ] 타일 배경 1~3
+- [ ] 타일 OPEN / CLOSE
 - [ ] 숫자 1~3
-- [ ] 벌레
-- [ ] 마크
-- [ ] 메뉴 버튼
+- [ ] 마크 느낌표
+- [ ] 벌레 1~3
+- [ ] 플레이 화면 UI
+	- [ ] 난이도 변경 폴더
+	- [ ] HOW TO PLAY 폴더
+	- [ ] EXIT 폴더
+- [ ] 패배 배경
+- [ ] RETRY
+- [ ] EXIT Button
+- [ ] 승리 배경
+- [ ] 승리 화면 UI
+	- [ ] PLAY AGAIN
 
 ### 사운드 목록
-- [x] BGM
+- [x] BGM 1~4
 - [ ] 타일 개방
-- [ ] 마크 설치
-- [ ] 마크 제거
+- [ ] 마크 설치 / 제거
 - [ ] 벌레 발견
+- [ ] UI mouse on / 클릭
