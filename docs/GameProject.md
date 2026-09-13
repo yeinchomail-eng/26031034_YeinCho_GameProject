@@ -53,23 +53,20 @@
 	- 일부 상황에서는 논리적 추론만으로 해결할 수 없어, 확률적 판단이 필요하다.
 
 ### 화면 구성
-pptx 참조
 
 ### 진행 흐름
 ```text
-게임 실행
-   ↓
-난이도 선택
-   ↓
-새 게임 시작
-   ↓
-필드 및 지뢰 생성
-   ↓
-첫 번째 칸 클릭
-   ↓
-┌─────────────────┐
-│     칸 확인      │
-└────────┬────────┘
+	게임 실행
+	   ↓
+	난이도 선택
+	   ↓
+	새 게임 시작
+	   ↓
+	필드 및 지뢰 생성
+	   ↓
+	첫 번째 칸 클릭
+	   ↓
+	   칸 확인
          ↓
     지뢰인가?
     ↙       ↘
@@ -106,39 +103,34 @@ pptx 참조
 | `GameState` | 게임의 현재 상태를 나타내는 열거형 | `Playing`, `Win`, `Lose` | - |
 
 ### 이미지 목록
-- [x] 타이틀 배경
-	- [X] BGM ON / OFF
- - [ ] UI
- 	- [ ] NEW GAME
-		- [ ] EASY
-		- [ ] NORMAL
-		- [ ] HARD
-	- [ ] HOW TO PLAY
-		- [x] HOW TO PLAY 배경
-		- [x] EXIT Button
-	- [ ] EXIT
-	- [ ] CREDIT
-		- [x] CREDIT 배경
-- [x] 플레이 배경
-- [ ] 타일 배경 1~3
-- [ ] 타일 OPEN / CLOSE
-- [ ] 숫자 1~3
-- [ ] 마크 느낌표
-- [ ] 벌레 1~3
-- [X] 플레이 화면 UI
-	- [X] HOME 아이콘
-	- [X] 난이도 변경 폴더
-	- [X] GUIDE 폴더
-	- [X] EXIT 폴더
-- [ ] 패배 배경
-	- [ ] RETRY
-- [x] 승리 배경
-	- [ ] 승리 화면 UI
-	- [ ] PLAY AGAIN
+**Start Screen**
+- [x] StartBackground
+	- [x] TitleLogo
+	- [x] BgmToggle
+ 	- [x] NewGameButton
+		- [x] EasyButton
+		- [x] NormalButton
+		- [x] HardButton
+	- [x] HowToPlayButton
+	    - [x] HowToPlayExitButton
+	- [x] ExitButton
+**Play Screen**
+- [x] PlayBackground
+- [x] TileBackground
+- [x] TileOpen, TileClose
+- [x] Bug
+- [x] HomeButton
+- [x] DifficultyButton
+- [x] GuideButton
+- [x] ExitButton2
+**Lose Screen**
+- [x] LoseBackground
+- [x] RetryButton
+**Win Screen**
+- [x] WinBackground
 
 ### 사운드 목록
-- [x] BGM 1~4
-- [ ] 타일 개방
-- [ ] 마크 설치 / 제거
-- [ ] 벌레 발견
-- [ ] UI mouse on / 클릭
+- [x] BGM1, BGM2, BGM3, BGM4
+- [x] TileOpen
+- [x] MarkPlace / MarkRemove
+- [x] BugFound
