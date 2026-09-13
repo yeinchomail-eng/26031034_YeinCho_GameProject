@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\26031034_YeinCho_GameProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|c:\\26031034_yeincho_gameproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|c:\\26031034_yeincho_gameproject\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|solutionrelative:gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|c:\\26031034_yeincho_gameproject\\glc2d\\g2texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|solutionrelative:glc2d\\g2texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|c:\\26031034_yeincho_gameproject\\appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|solutionrelative:appmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|c:\\26031034_yeincho_gameproject\\glc2d\\g2appbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|solutionrelative:glc2d\\g2appbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|c:\\26031034_yeincho_gameproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A999C06-453D-5245-802F-C092A0AE5215}|waksmash.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +30,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "G2Texture.cs",
+              "DocumentMoniker": "C:\\26031034_YeinCho_GameProject\\glc2d\\G2Texture.cs",
+              "RelativeDocumentMoniker": "glc2d\\G2Texture.cs",
+              "ToolTip": "C:\\26031034_YeinCho_GameProject\\glc2d\\G2Texture.cs",
+              "RelativeToolTip": "glc2d\\G2Texture.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T04:38:53.813Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "G2AppBase.cs",
+              "DocumentMoniker": "C:\\26031034_YeinCho_GameProject\\glc2d\\G2AppBase.cs",
+              "RelativeDocumentMoniker": "glc2d\\G2AppBase.cs",
+              "ToolTip": "C:\\26031034_YeinCho_GameProject\\glc2d\\G2AppBase.cs",
+              "RelativeToolTip": "glc2d\\G2AppBase.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T04:27:41.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameMain.cs",
+              "DocumentMoniker": "C:\\26031034_YeinCho_GameProject\\GameMain.cs",
+              "RelativeDocumentMoniker": "GameMain.cs",
+              "ToolTip": "C:\\26031034_YeinCho_GameProject\\GameMain.cs",
+              "RelativeToolTip": "GameMain.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T04:18:18.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\26031034_YeinCho_GameProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -30,18 +82,17 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T15:33:22.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T15:33:22.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppMain.cs",
               "DocumentMoniker": "C:\\26031034_YeinCho_GameProject\\AppMain.cs",
               "RelativeDocumentMoniker": "AppMain.cs",
               "ToolTip": "C:\\26031034_YeinCho_GameProject\\AppMain.cs",
               "RelativeToolTip": "AppMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T15:26:29.912Z",
               "EditorCaption": ""
