@@ -8,8 +8,8 @@
 
 ### 목적
 - 필드에서 **안전한 타일**과 **벌레가 있는 타일**을 구분한다.
-- 타일에 표시되는 **숫자**를 통해 벌레의 위치를 추론한다.
-- 벌레가 있다고 판단되는 타일에는 **느낌표 마크**를 설치하여 실수를 방지한다.
+	- 타일에 표시되는 **숫자**를 통해 벌레의 위치를 추론한다.
+	- 벌레가 있다고 판단되는 타일에는 **느낌표 마크**를 설치하여 실수를 방지한다.
 - 벌레가 있는 타일을 제외한 모든 안전한 칸을 개방하면 승리한다.
 
 ### 조작 방법
@@ -68,7 +68,7 @@
 	   ↓
 	   칸 확인
          ↓
-    지뢰인가?
+	  지뢰인가?
     ↙       ↘
    YES       NO
     ↓         ↓
@@ -103,6 +103,7 @@
 | `GameState` | 게임의 현재 상태를 나타내는 열거형 | `Playing`, `Win`, `Lose` | - |
 
 ### 이미지 목록
+
 **Start Screen**
 - [x] StartBackground
 	- [x] TitleLogo
@@ -114,6 +115,7 @@
 	- [x] HowToPlayButton
 	    - [x] HowToPlayExitButton
 	- [x] ExitButton
+
 **Play Screen**
 - [x] PlayBackground
 - [x] TileBackground
@@ -123,9 +125,11 @@
 - [x] DifficultyButton
 - [x] GuideButton
 - [x] ExitButton2
+
 **Lose Screen**
 - [x] LoseBackground
 - [x] RetryButton
+
 **Win Screen**
 - [x] WinBackground
 
